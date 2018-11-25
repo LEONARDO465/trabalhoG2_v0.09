@@ -1,0 +1,59 @@
+<div class="menu_corpo">
+        
+      <div class="corpo">
+
+         <div style="margin-top:10px">
+            <h1>INFORME AQUI SEUS DADOS PARA SE REGISTRAR</h1>
+        </div>
+         <form >
+
+            Nome:
+            <input type="text" name="valorB" required #usuario="ngModel"
+              [(ngModel)]="usuario.login" />
+                <br/>
+                <br/>
+            Cidade:
+           <input type="text" name="valorB" required #usuario="ngModel"
+              [(ngModel)]="usuario.login" />
+                <br/>
+                <br/>
+            endereço:
+             <input type="text" name="valorB" required #usuario="ngModel"
+              [(ngModel)]="usuario.login" />
+                <br/>
+                <br/>
+            Usuario
+             <input type="text" name="valorB" required #usuario="ngModel"
+              [(ngModel)]="usuario.login" />
+                <br/>
+                <br/>
+            Senha    
+              <input type="text" name="valorB" required #senha="ngModel"
+              [(ngModel)]="Usuario.senha" />
+                <br/>
+                <br/>
+             <input type="submit" value="login" (click)="login()" />   
+            
+             <input type="button" value="registrar-me" (click)="recuperar()" />
+
+            
+          </form>
+        </div>   
+
+
+      
+        
+          <div class="corpo_dados">
+        <div>
+            <h1>INFORME AQUI SEUS DADOS BANCARIOS</h1>
+        </div>
+         <form >
+
+
+          </form>
+        </div>   
+        
+
+
+ </div>
+

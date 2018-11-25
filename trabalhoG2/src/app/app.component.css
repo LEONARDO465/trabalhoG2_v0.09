@@ -1,0 +1,45 @@
+.mae{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 20px;
+}
+.container_produtos{
+    text-align: right;
+}
+.cabeçalho_inicial{
+    background-color: rgb(75, 75, 173); height: 90px;
+    height: 13%;
+    border-radius: 40px;
+}
+h1{
+    text-align: center;
+    padding: 20px;
+}
+
+.corpo_fisico{
+    height:98% ;
+    width: 100%;
+    
+}
+.menu_corpo{
+    height: 800px;
+    width: 400px;
+    background-color: rgb(75, 75, 173);;
+    float: left;
+    
+}
+.produtos{
+    height: 800px;
+    width: 1480px;
+   float: right;
+   text-align: center;
+   margin-left: 1px;
+}
+.menus_icon{
+    width: 40px;
+    height: 84%;
+    text-align: center;
+    background-color: blue
+}
+
+
